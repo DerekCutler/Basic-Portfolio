@@ -22,7 +22,8 @@ body {
     height: 210px;
     padding: 10px;
     border-radius: 42px;
-    /* border: 1px
+    /* border: 1px; 
+    border-style: solid;
     border-color: lightgrey; */
   }
 
@@ -31,7 +32,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     width: 960px;
-    /* border: 1px
+    /* border: 1px; 
+    border-style: solid;
     border-color: lightgrey; */
   }
   
@@ -50,6 +52,9 @@ body {
     border-style: solid;
     border-width: 7px 21px 7px 21px;
     border-color: lightgrey;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
 }
 
 
@@ -60,7 +65,8 @@ body {
 	justify-content: space-around;
 	align-items: flex-end;
     align-content: center;
-    /* border: 1px
+    /* border: 1px; 
+    border-style: solid;
     border-color: lightgrey; */
 }
 
@@ -71,7 +77,8 @@ body {
 	justify-content: space-around;
 	align-items: center;
     align-items: flex-end;
-    /* border: 1px
+    /* border: 1px; 
+    border-style: solid;
     border-color: lightgrey; */
 }
 
@@ -82,7 +89,8 @@ body {
 	justify-content: space-around;
 	align-items: center;
     align-items: flex-end;
-    /* border: 1px
+    /* border: 1px; 
+    border-style: solid;
     border-color: lightgrey; */
 }
 
@@ -99,18 +107,21 @@ body {
     height: auto;
     padding: 10px;
     border-radius: 42px;
-    /* border: 1px
+    /* border: 1px; 
+    border-style: solid;
     border-color: lightgrey; */
   }
 
 .section {
         display: flex;
         flex-direction: row;
-        justify-content: left;
+        flex-wrap: wrap;
+        justify-content: baseline;
         width: 960px;
         height: auto;
-        border: 1px;
-        border-color: lightgrey;
+        /* border: 1px; 
+        border-style: solid;
+        border-color: lightgrey; */
 }
 
 .apc {
@@ -120,10 +131,25 @@ body {
 	justify-content: flex-start;
 	align-items: baseline;
 	align-content: stretch;
+    width: 100%;
+    padding: 20px;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+.picture {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: stretch;
     width: auto;
-    margin: 0 0 300px 0;
-    border: 1px
-    border-color: lightgrey;
+    padding: 20px;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
 }
 
 .paragragh {
@@ -132,6 +158,9 @@ body {
     width: auto;
     margin: 10px;
     text-align: justify;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
 }
 
 .footercontainer {
@@ -146,8 +175,9 @@ body {
     height: aut;
     padding: 10px;
     border-radius: 42px;
-    border: 1px
-    border-color: lightgrey;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
 }
 
   /* hyperlink 411 */
