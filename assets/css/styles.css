@@ -113,15 +113,15 @@ body {
   }
 
 .section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: baseline;
-        width: 960px;
-        height: auto;
-        /* border: 1px; 
-        border-style: solid;
-        border-color: lightgrey; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    width: 960px;
+    height: auto;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
 }
 
 .apc {
@@ -133,9 +133,9 @@ body {
 	align-content: stretch;
     width: 100%;
     padding: 20px;
-    /* border: 1px; 
+    border: 1px; 
     border-style: solid;
-    border-color: lightgrey; */
+    border-color: lightgrey;
 }
 
 .picture {
@@ -146,7 +146,8 @@ body {
 	align-items: baseline;
 	align-content: stretch;
     width: auto;
-    padding: 20px;
+    height: 230px;
+    margin: 10px;
     /* border: 1px; 
     border-style: solid;
     border-color: lightgrey; */
@@ -155,8 +156,8 @@ body {
 .paragragh {
     display:flex;
     flex-wrap: wrap;
-    width: auto;
     margin: 10px;
+    width: 680px;
     text-align: justify;
     /* border: 1px; 
     border-style: solid;
